@@ -11,7 +11,11 @@
       "@/*": ["./src/*"],
       "@/app/*": ["./src/app/*"],
       "@/database/*": ["./src/database/*"],
+      "@/users/*": ["./src/users/*"],
       "@/utils/*": ["./src/utils/*"],
-    }
+    },
+    "types": [
+      "vitest/globals"
+    ]
   }
 }
